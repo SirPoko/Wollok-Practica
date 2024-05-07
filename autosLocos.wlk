@@ -8,30 +8,34 @@ object pilotoLuke {
     if (destino.requisitos(vehiculoActual)) {
       lugaresVisitados += 1
       recuerdoActual = destino.recuerdo()
+    } else {
+      console.println("Los requisitos para viajar no se cumplen.")
     }
   }
-} //Vehiculos
+} 
+
+//Vehiculos
 
 object alambiqueVeloz {
-  var property combustible = 1000
+  var property combustible = 50
   var property velocidad = "lento"
 } //Ciudades
 
-object ciudadParis {
+object paris {
   var property recuerdo = torreEiffel
+  
   method requisitos(vehiculoActual) = vehiculoActual.combustible() >= 100
+}
+
+object bsas {
   
 }
 
-object ciudadBsas {
+object bagdad {
   
 }
 
-object ciudadBagdad {
-  
-}
-
-object ciudadVegas {
+object vegas {
   
 }
 
