@@ -24,4 +24,4 @@ juegos.map({x=> x.precios() > 100}) #Retorna lo que cumple esa condicion
 
 amigas.forEach({p=> p.jugar(mario)}) #Le envia el metodo a cada objeto de la coleccion
 juegos.forEach({j=> self.jugar(j)})
-
+s

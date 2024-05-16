@@ -1,0 +1,21 @@
+class JuegoBasico{
+    var peso=10
+    method diversion()=50
+}
+
+Las clases nos permiten crear montones de objetos similares
+
+x = new JuegoBasico() #crea un objeto basico definido en la clase, para la variable x
+
+una variables es una "flecha", "un nombre temporal"
+
+un objeto "muere" al no tener forma de comunicarse con el o referirse a el
+
+una clase es una "naturaleza" una "escencia"
+
+herramienta practica para objetos que se comporten iguales
+
+los numeros, las colecciones son tambien tipos de clases
+
+se le puede dar un valor inicial personalizado 
+Ej: new JuegoBasico(peso=30)
