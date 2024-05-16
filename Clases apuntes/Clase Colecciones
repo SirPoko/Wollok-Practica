@@ -1,0 +1,26 @@
+Colecciones: son referencias a objetos, lista de objetos
+
+unaColeccion.size()  #devuelve la cantidad de objetos 
+unaColeccion.sum() #devuelve la suma de su contenido
+
+notas.contains() #pregunta si contiene devuelve booleano
+notas.max() #devuelve la mayor nota
+notas.min() #devuelve la menor nota
+notas.add() #agrega el objeto del parametro al final
+notas.remove() #quita el objeto de la cola
+notas = [] #crea una lista con los objetos que contengan los corchetes, pueden mezclarse y ser de cualquier tipo
+notas.addall() #agrega todo los elementos entre corchetes
+notas.clear() #limpia la lista
+notas++[] #concatena los objetos dentro del parametro
+
+juegos.sum({x=> x.diversion})  #{} es un bloque de codigo - closure - lambda
+juegos.max({x=> x.diversion})
+etc
+
+caros = juegos.filtter({x=> x.precios() > 100}) # Filtra y guarda una coleccion que cumpla esa condicion
+juegos.any({x=> x.precios() > 100}) #True si alguno cumple la condicion
+juegos.all({x=> x.precios() > 100}) #True si todos cumplen la condicion
+juegos.map({x=> x.precios() > 100}) #Retorna lo que cumple esa condicion
+
+amigas.forEach({p=> p.jugar(mario)}) #Le envia el metodo a cada objeto de la coleccion
+
