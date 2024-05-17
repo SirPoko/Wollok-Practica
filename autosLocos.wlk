@@ -22,13 +22,15 @@ object alambiqueVeloz {
 } //Ciudades
 
 object paris {
+  var property consumoFuel = 100
   var property recuerdo = torreEiffel
-  
   method requisitos(vehiculoActual) = vehiculoActual.combustible() >= 100
 }
 
 object bsas {
-  
+   var property consumoFuel = 25
+  var property recuerdo = mateArgento
+  method requisitos(vehiculoActual) = vehiculoActual.combustible() >= 100
 }
 
 object bagdad {
@@ -47,6 +49,12 @@ object ninguno {
   
 }
 
+// recuerdos
+
 object torreEiffel {
   
+}
+
+object mateArgento {
+  var yerba = true
 }
